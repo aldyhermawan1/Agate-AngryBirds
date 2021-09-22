@@ -69,4 +69,8 @@ public class Bird : MonoBehaviour
         rb2d.velocity = velocity * speed * distance;
         onBirdShot(this);
     }
+
+    public virtual void OnTap(){
+        //Do Nothing
+    }
 }
